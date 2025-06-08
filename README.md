@@ -2,8 +2,7 @@
 Proyecto para Registro, Auditoria y Hardening de cuentas de RRSS
 
 ⚠️ AVISO: El codigo publicado en los repositorios corresponde a una vesion de (prototipo) con fines universitarios.
-                    *** En esta version de prototipo se podran observar passwords en texto plano *** 
-          Todos los datos insertados corresponden a informacion de prueba (no real) generada manualmente.
+En esta version de prototipo se podran observar passwords en texto plano, todos los datos insertados corresponden a informacion de prueba (no real) generada manualmente.
 
 ​🎯 En versiones posteriores se aplicaran buenas practicas de mejora a la seguridad para ofuscacion de credenciales.       
 
