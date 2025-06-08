@@ -1,1 +1,5 @@
-.idea/\n*.class\n*.log\n*.iml\nout/
+.idea/
+*.class
+*.log
+*.iml
+out/
