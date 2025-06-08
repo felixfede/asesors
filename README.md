@@ -1,2 +1,2 @@
 # asesors
-Proyecto de Hardening de RRSS
+Proyecto para Registro, Auditoria y Hardening de cuentas de RRSS
