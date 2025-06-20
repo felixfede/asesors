@@ -2,6 +2,7 @@ package dao;
 
 import modelos.Usuario;
 import conexion.ConexionBD;
+import util.HashUtil;
 
 
 import java.sql.*;
@@ -15,9 +16,11 @@ public class UsuarioDAO {
              PreparedStatement stmt = conn.prepareStatement(sql)) {
 
             stmt.setString(1, username);
-            stmt.setString(2, password);
+            stmt.setString(2, HashUtil.hash(password)); //comparar el hash de la BD con el ingresado
+
 
             ResultSet rs = stmt.executeQuery();
+
             if (rs.next()) {
                 Usuario usuario = new Usuario();
                 usuario.setId(rs.getInt("id"));
@@ -26,6 +29,7 @@ public class UsuarioDAO {
                 usuario.setRol(rs.getString("rol"));
                 return usuario;
             }
+
 
         } catch (SQLException e) {
             System.err.println("Error en login: " + e.getMessage());
