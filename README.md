@@ -33,6 +33,11 @@ Se prevé para la próxima release:
 - Restricciones por rol (administrador vs operador)
 - Verificación en línea con servicios como HaveIBeenPwned
 
+## ▶️ Ejecutable
+El archivo (.jar) está disponible para pruebas rápidas:
+
+🔗 [`dist/asesors.jar`](./dist/asesors.jar)
+
 ## ⚙️ Requisitos
 
 - Java 17+
