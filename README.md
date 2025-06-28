@@ -1,9 +1,9 @@
-# asesors
+# ASESORS
 Sistema para Registro, Auditoría y Fortalecimiento de Seguridad en Cuentas de Redes Sociales
 
 ⚠️ *** AVISO ***
 
-El codigo publicado en este repositorio corresponde a una vesion de (prototipo) con fines universitarios.
+El codigo publicado en este repositorio corresponde a una vesion de (prototipo) operacional con fines universitarios.
 En esta version de prototipo se podran observar credenciales en texto plano, todos los datos insertados en la BD son ficticios, generados manualmente con fines de validar el funcionamiento del sistema.
 
 ​🎯 En futuras versiones se incorporaran mejoras a la seguridad para ofuscacion de credenciales y controles de segregacion de funciones por ROL.       
@@ -13,7 +13,7 @@ En esta version de prototipo se podran observar credenciales en texto plano, tod
 ASESORS permite a agencias de marketing digital auditar el estado de seguridad de las cuentas de redes sociales de sus clientes, mediante:
 - Diagnósticos por cuenta
 - Registros centralizados 
-- Reportes visuales con representacion de estados por colores 🔴🟡​🟢
+- Reportes visuales con representacion de estados diferenciados por colores 🔴🟡​🟢
 
 # Caracteristicas y Funcionalidades principales
 
@@ -21,7 +21,7 @@ ASESORS permite a agencias de marketing digital auditar el estado de seguridad d
 - Diagnósticos por cuenta: detección de 2FA, contraseñas débiles y actividad sospechosa
 - Reportes de estado general y por cliente, con códigos de color (verde, amarillo, rojo)
 - Inicio de sesion de usuarios con validación de credenciales hasheadas
-- Persistencia en MySQL con conexión segura vía JDBC
+- Persistencia en BD MySQL con conexión segura vía JDBC
 - Interfaz gráfica desarrollada en Java Swing
 
 ## 🔒 Seguridad
