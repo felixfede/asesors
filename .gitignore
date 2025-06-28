@@ -3,3 +3,4 @@
 *.log
 *.iml
 out/
+META-INF/MANIFEST.MF
