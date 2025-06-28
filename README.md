@@ -1,7 +1,7 @@
 # asesors
 Sistema para Registro, Auditoría y Fortalecimiento de Seguridad en Cuentas de Redes Sociales
 
-⚠️ AVISO 
+⚠️ *** AVISO ***
 
 El codigo publicado en este repositorio corresponde a una vesion de (prototipo) con fines universitarios.
 En esta version de prototipo se podran observar credenciales en texto plano, todos los datos insertados en la BD son ficticios, generados manualmente con fines de validar el funcionamiento del sistema.
