@@ -1,22 +1,37 @@
 # asesors
-Proyecto para Registro, Auditoria y Hardening de cuentas de RRSS
+Sistema para Registro, Auditoría y Fortalecimiento de Seguridad en Cuentas de Redes Sociales
 
-⚠️ AVISO: El codigo publicado en los repositorios corresponde a una vesion de (prototipo) con fines universitarios.
-En esta version de prototipo se podran observar passwords en texto plano, todos los datos insertados corresponden a informacion de prueba (no real) generada manualmente.
+⚠️ AVISO ⚠️
+El codigo publicado en este repositorio corresponde a una vesion de (prototipo) con fines universitarios.
+En esta version de prototipo se podran observar credenciales en texto plano, todos los datos insertados en la BD son ficticios, generados manualmente con fines de validar el funcionamiento del sistema.
 
-​🎯 En versiones posteriores se aplicaran buenas practicas de mejora a la seguridad para ofuscacion de credenciales.       
+​🎯 En futuras versiones se incorporaran mejoras a la seguridad para ofuscacion de credenciales y controles de segregacion de funciones por ROL.       
 
 
 # Acerca del sistema 
-El sistema ASESORS permite a agencias de marketing digital auditar el estado de seguridad de las cuentas de redes sociales de sus clientes, mediante diagnósticos, registros centralizados y visualización estructurada de la información.
+ASESORS permite a agencias de marketing digital auditar el estado de seguridad de las cuentas de redes sociales de sus clientes, mediante:
+- Diagnósticos por cuenta
+- Registros centralizados 
+- Reportes visuales con representacion de estados por colores 🚥
 
-# Funcionalidades principales
+# Caracteristicas y Funcionalidades principales
 
-- Gestión de clientes y sus cuentas de RRSS.
-- Registro y actualización de diagnósticos de seguridad por cuenta.
-- Reportes de estado general por cliente (cuentas comprometidas / seguras).
-- Login con control de acceso por usuario.
-- Conexión a base de datos MySQL para persistencia de informacion.
+- Gestión de clientes y cuentas de RRSS
+- Diagnósticos por cuenta: detección de 2FA, contraseñas débiles y actividad sospechosa
+- Reportes de estado general y por cliente, con códigos de color (verde, amarillo, rojo)
+- Inicio de sesion de usuarios con validación de credenciales hasheadas
+- Persistencia en MySQL con conexión segura vía JDBC
+- Interfaz gráfica desarrollada en Java Swing
+
+🔒 Seguridad
+El sistema utiliza hash SHA-256 para proteger contraseñas en la tabla de usuarios
+
+El acceso está segmentado por credenciales
+
+Se prevé para la próxima release:
+- Cifrado completo de configuraciones sensibles (como la clase de conexión)
+- Restricciones por rol (administrador vs operador)
+- Verificación en línea con servicios como HaveIBeenPwned
 
 ## ⚙️ Requisitos
 
