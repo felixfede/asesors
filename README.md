@@ -13,7 +13,7 @@ En esta version de prototipo se podran observar credenciales en texto plano, tod
 ASESORS permite a agencias de marketing digital auditar el estado de seguridad de las cuentas de redes sociales de sus clientes, mediante:
 - Diagnósticos por cuenta
 - Registros centralizados 
-- Reportes visuales con representacion de estados por colores 🚥
+- Reportes visuales con representacion de estados por colores 🔴🟡​🟢
 
 # Caracteristicas y Funcionalidades principales
 
