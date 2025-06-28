@@ -26,8 +26,7 @@ ASESORS permite a agencias de marketing digital auditar el estado de seguridad d
 
 ## 🔒 Seguridad
 
-El sistema utiliza hash SHA-256 para proteger contraseñas en la tabla de usuarios
-El acceso está segmentado por credenciales
+El sistema utiliza hash SHA-256 para proteger contraseñas en la tabla de usuarios, el acceso está segmentado por credenciales.
 
 Se prevé para la próxima release:
 - Cifrado completo de configuraciones sensibles (como la clase de conexión)
