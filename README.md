@@ -34,7 +34,7 @@ Se prevé para la próxima release:
 - Verificación en línea con servicios como HaveIBeenPwned
 
 ## ▶️ Ejecutable
-El archivo (.jar) está disponible para pruebas rápidas:
+El archivo (.jar) está disponible para pruebas rápidas en /dist:
 
 🔗 [`dist/asesors.jar`](./dist/asesors.jar)
 
