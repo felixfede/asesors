@@ -24,9 +24,9 @@ ASESORS permite a agencias de marketing digital auditar el estado de seguridad d
 - Persistencia en MySQL con conexión segura vía JDBC
 - Interfaz gráfica desarrollada en Java Swing
 
-🔒 Seguridad
-El sistema utiliza hash SHA-256 para proteger contraseñas en la tabla de usuarios
+## 🔒 Seguridad
 
+El sistema utiliza hash SHA-256 para proteger contraseñas en la tabla de usuarios
 El acceso está segmentado por credenciales
 
 Se prevé para la próxima release:
